@@ -109,7 +109,7 @@ int Pawn::compute() {
 			poscheck = false;
 		}
 		else {
-			poscheck = isCheckAfterMove(x, y + yMove);
+			poscheck = isCheckAfterMove(x + i, y + yMove);
 		}
 
 		if(poscheck) {
